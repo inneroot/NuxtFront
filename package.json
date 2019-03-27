@@ -1,7 +1,7 @@
 {
   "name": "nuxtfront",
   "version": "1.0.0",
-  "description": "My peachy Nuxt.js project",
+  "description": "fronend for strapi",
   "author": "Gleb Fedotov",
   "private": true,
   "scripts": {
@@ -11,9 +11,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
     "cross-env": "^5.2.0",
+    "hooper": "^0.1.1",
     "nuxt": "^2.4.0",
-    "@nuxtjs/axios": "^5.3.6"
+    "strapi-sdk-javascript": "^0.3.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",

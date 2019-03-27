@@ -1,10 +1,10 @@
 # nuxtfront
 
-> My peachy Nuxt.js project
+> fronend for strapi
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
