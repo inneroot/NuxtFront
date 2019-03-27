@@ -1,0 +1,11 @@
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .3s, padding-top .3s;
+  -webkit-transition: opacity .3s, padding-top .3s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+  padding-top: 25px;
+}
